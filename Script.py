@@ -11,7 +11,7 @@ class script(object):
 # Ask Doubt on telegram @KingVJ01
 
     
-    CAPTION = """<b>📂 ғɪʟᴇɴᴀᴍᴇ : {file_name}
+    CAPTION = """<b>📂 ғɪʟᴇɴᴀᴍᴇ : @shitnigga_bot{file_name}
 
 ⚙️ sɪᴢᴇ : {file_size}
 
@@ -48,11 +48,8 @@ If You Want To Remove Api Then Copy This And Send To Bot - `/api None`"""
 🤖 ᴍʏ ɴᴀᴍᴇ: {}
 
 📝 ʟᴀɴɢᴜᴀɢᴇ: <a href=https://www.python.org>𝐏𝐲𝐭𝐡𝐨𝐧𝟑</a>
-
 📚 ʟɪʙʀᴀʀʏ: <a href=https://docs.pyrogram.org>𝐏𝐲𝐫𝐨𝐠𝐫𝐚𝐦</a>
-
 🧑🏻‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ: <a href=https://t.me/Aaru_2074>𝑨𝒂𝒓𝒖</a>
-
 👥 sᴜᴘᴘᴏʀᴛ: <a href=https://t.me/shitnigga_bot>𝗔𝗱𝗺𝗶𝗻𝘀</a>
 """
 
@@ -61,9 +58,7 @@ If You Want To Remove Api Then Copy This And Send To Bot - `/api None`"""
 🤖 ᴍʏ ɴᴀᴍᴇ: {}
 
 📝 ʟᴀɴɢᴜᴀɢᴇ: <a href=https://www.python.org>𝐏𝐲𝐭𝐡𝐨𝐧𝟑</a>
-
 📚 ʟɪʙʀᴀʀʏ: <a href=https://docs.pyrogram.org>𝐏𝐲𝐫𝐨𝐠𝐫𝐚𝐦</a>
-
 🧑🏻‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ: <a href=tg://user?id={}>ᴅᴇᴠᴇʟᴏᴘᴇʀ</a></b>
 """
 
