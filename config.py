@@ -23,7 +23,7 @@ API_HASH = environ.get("API_HASH", "057fd0be9d7c38526b143c582bceb24b")
 BOT_TOKEN = environ.get("BOT_TOKEN", "7990373605:AAFP85Do6LUA7HBrfUZTQKx_kxlAlwofHHg")
 
 PICS = (environ.get('PICS', 'https://iili.io/2b9IKs1.webp')).split() # Bot Start Picture
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5543390445').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5543390445 879520667 7604689652').split()]
 BOT_USERNAME = environ.get("BOT_USERNAME", "MIGHTYsnaps_bot") # without @
 PORT = environ.get("PORT", "8080")
 
@@ -42,8 +42,8 @@ DB_NAME = environ.get("DB_NAME", "Cluster0")
 AUTO_DELETE_MODE = bool(environ.get('AUTO_DELETE_MODE', True)) # Set True or False
 
 # If Auto Delete Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
-AUTO_DELETE = int(environ.get("AUTO_DELETE", "30")) # Time in Minutes
-AUTO_DELETE_TIME = int(environ.get("AUTO_DELETE_TIME", "1800")) # Time in Seconds
+AUTO_DELETE = int(environ.get("AUTO_DELETE", "15")) # Time in Minutes
+AUTO_DELETE_TIME = int(environ.get("AUTO_DELETE_TIME", "900")) # Time in Seconds
 
 # Channel Information
 LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002432294589"))
@@ -56,7 +56,7 @@ BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION", CUSTOM_FILE_CAPTION)
 PUBLIC_FILE_STORE = is_enabled((environ.get('PUBLIC_FILE_STORE', "False")), True)
 
 # Verify Info :-
-VERIFY_MODE = bool(environ.get('VERIFY_MODE', False)) # Set True or False
+VERIFY_MODE = bool(environ.get('VERIFY_MODE', True)) # Set True or False
 
 # If Verify Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
 SHORTLINK_URL = environ.get("SHORTLINK_URL", "instantearn.in") # shortlink domain without https://
